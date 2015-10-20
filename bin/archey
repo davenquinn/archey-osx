@@ -24,6 +24,9 @@ if [ -z "$ipAddress" ]; then
 fi
 
 case $versionShort in
+    10.11)
+        versionString="El Capitan"
+        ;;
     10.10)
         versionString="Yosemite"
         ;;
